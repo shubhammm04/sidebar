@@ -1,9 +1,13 @@
-import HomeFeed from '@/components/home/home-feed';
-
 export default function Home() {
   return (
-    <div className="flex flex-col pt-4 sm:ml-[120px] md:ml-[250px] sm:border-r sm:border-zinc-700 pb-20 h-full">
-      <HomeFeed />
-    </div>
+    <>
+      <span className="font-bold text-4xl">Home</span>
+      <div className="border-dashed border border-zinc-500 w-full h-12 rounded-lg"></div>
+      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
+      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
+      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
+      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
+      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg"></div>
+    </>
   );
 }
