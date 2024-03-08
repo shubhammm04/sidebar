@@ -1,0 +1,39 @@
+{
+  "name": "sidebar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "eslint --fix .",
+    "format:check": "prettier --check .",
+    "format": "prettier --write . --list-different"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "framer-motion": "^10.16.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.1.3"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
+    "@iconify/react": "^4.1.1",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "autoprefixer": "latest",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
